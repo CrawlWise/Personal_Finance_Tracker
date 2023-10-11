@@ -12,3 +12,7 @@ Description: Create an application that allows users to input their income and e
         - Visualise expenses using charts or graphs.
         - Provide monthly financial summaries.
         - Export data to CSV or PDF.
+
+# Tech Stack 
+- Python Django
+- Database: Default Django database
