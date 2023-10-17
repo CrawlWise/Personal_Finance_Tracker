@@ -1,0 +1,24 @@
+.form-body {
+    background-color: #030002;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    height: 120vh;
+}
+
+.login-signup-form {
+    padding: 20px;
+    height: 70vh;
+    margin: 30px;
+
+}
+.social-media-signup-signin {
+    text-align: center;
+}
+.google, .facebook {
+    padding: 10px;
+}
+
+.submit-btn {
+    text-align: center;
+}
