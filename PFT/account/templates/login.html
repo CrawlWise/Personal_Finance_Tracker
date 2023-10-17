@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% load static %}
+
+<!-- Working with the block content for main information -->
+{% block title%} Account {% endblock title %}
+{% block content %}
+
+<link rel="stylesheet" href="{% static 'css/account.css' %}">
+<link rel="stylesheet" href="{% static 'css/global.css' %}">
+<div class="form-body">
+	<div class="login-signup-form">
+	<h1 style="text-align: center">Login</h1>
+	<form>
+		<div class="mb-3">
+			<label for="exampleInputEmail1" class="form-label">Email address</label>
+			<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+			<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+		</div>
+		<div class="mb-3">
+			<label for="exampleInputPassword1" class="form-label">Password</label>
+			<input type="password" class="form-control" id="exampleInputPassword1">
+		</div>
+		<div class="mb-3 form-check">
+			<input type="checkbox" class="form-check-input" id="exampleCheck1">
+			<label class="form-check-label" for="exampleCheck1">Remember Password</label>
+		</div><hr>
+		<div class="social-media-signup-signin">
+			<span class="google">
+				<a href="#">
+					<img src="{% static 'img/google-login.png' %}" alt="google login" height="30", width="30">
+				</a>
+			</span>
+			<span class="facebook">
+				<a href="#">
+					<img src="{% static 'img/facebook-login.png' %}" alt="google login" height="30", width="30" alt="">
+				</a>
+			</span>
+		</div><br>
+		<!-- submit button -->
+		<div class="submit-btn">
+			<button type="submit" class="btn btn-primary" style="width: 50%;">Submit</button>
+		</div><br>
+		<!-- sign in login page link -->
+		<div class="login-signup-link" style="text-align: center">
+			<p>Dont have an account? <a href="{% url 'signup' %}">Signup</a></p>
+		</div>
+	</form>
+</div>
+</div>
+
+{% endblock content %}
