@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eee2c047-3b18-444d-98c1-1ebc3531b8bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PFT/PFT/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PFT/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PFT/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PFT/PFT/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PFT/PFT/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PFT/PFT/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/PFT/PFT/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PFT/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/PFT/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,15 +31,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Workspace/codeworkshop/python/django"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Workspace\Personal_Finance_Tracker\static" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Workspace\Personal_Finance_Tracker\PFT\assets\css" />
+      <recent name="C:\Workspace\Personal_Finance_Tracker" />
+      <recent name="C:\Workspace\Personal_Finance_Tracker\PFT\account\templates" />
       <recent name="C:\Workspace\Personal_Finance_Tracker\PFT" />
     </key>
   </component>
