@@ -3,8 +3,7 @@
 
 <!-- Working with the block content for main information -->
 {% block title%} Account {% endblock title %}
-{% block content %}
-
+{% block content %}c
 <link rel="stylesheet" href="{% static 'css/account.css' %}">
 <link rel="stylesheet" href="{% static 'css/global.css' %}">
 <div class="form-body">
@@ -27,7 +26,7 @@
 		</div>
 		
 		<div class="mb-3">
-			<label for="confirmPassword" class="form-label">Confirm Password</label>
+			<label for="password" class="form-label">Confirm Password</label>
 			<input type="password" class="form-control" id="confirmPassword">
 		</div><hr>
 		

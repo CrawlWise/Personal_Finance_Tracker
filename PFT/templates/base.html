@@ -10,10 +10,15 @@
 </head>
 <body>
 <div class="container-fluid">
-		{% block content %}
-		{% endblock content %}
+	<div class="main-container">
+		{% block header %} {% endblock %}
+		{% block content %} {% endblock %}
+		{% block footer %} {% endblock %}
 	</div>
+	
 </div>
+</body>
+</html>
 
 
 
