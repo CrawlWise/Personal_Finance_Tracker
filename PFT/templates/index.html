@@ -1,10 +1,59 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Title</title>
-</head>
-<body>
- <h1>Welcome to my index page</h1>
-</body>
-</html>
+{% extends 'base.html' %}
+{% load static %} <!--Loading my static file-->
+{% block title %} PFP-App {% endblock %}
+
+{% block header %}
+<link rel="stylesheet" href="{% static 'css/index.css' %}">
+	<div class="navbar">
+		<span class="logo">
+			<img src="" alt="image logo"/>
+		</span>
+		<ul>
+			<li><a href="#">User:</a></li>
+			<li><a href="#"> Sign in </a></li>
+			<li><a href="#"> Sign out </a></li>
+		</ul>
+	</div>
+{% endblock %}
+
+{% block content %}
+<div class="app-interface">
+	<div class="Nav-left">
+		<div class="gadget">
+			<a href="#">
+			<span class="img-icon">
+				<img src="{% static 'img/home.png' %}" alt="" height="40" width="40">
+			</span>
+			</a>
+		</div>
+		<div class="gadget">
+			<a href="#">
+			<span class="img-icon">
+				<img src="{% static 'img/dashboard.png' %}" alt="" height="40" width="40">
+			</span>
+			</a>
+		</div>
+		<div class="gadget">
+			<a href="#">
+			<span class="img-icon">
+				<img src="{% static 'img/Add-widget.png' %}" alt="" height="40" width="40">
+			</span>
+			</a>
+		</div>
+		<div class="gadget">
+			<a href="#">
+			<span class="img-icon">
+				<img src="{% static 'img/settings.png' %}" alt="" height="40" width="40">
+			</span>
+			</a>
+		</div>
+		<div class="gadget1"></div>
+		<div class="gadget1"></div>
+	</div>
+	<div class="display-content">
+		<div class=" container report-board">
+			<h5>Im here</h5>
+		</div>
+	</div>
+</div>
+{% endblock %}
